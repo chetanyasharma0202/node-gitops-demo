@@ -40,5 +40,5 @@ test("GET / returns application information", async () => {
   const body = await response.json();
 
   assert.equal(body.application, "node-gitops-demo");
-  assert.equal(body.message, "CI/CD END-TO-END TEST v2");
+  assert.equal(body.message, "CI/CD END-TO-END TEST v3");
 });

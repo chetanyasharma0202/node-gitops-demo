@@ -6,7 +6,7 @@ const app = express();
 app.get("/", (req, res) => {
   res.json({
     application: "node-gitops-demo",
-    message: "CI/CD END-TO-END TEST v2",
+    message: "CI/CD END-TO-END TEST v3",
     version: process.env.APP_VERSION || "dev",
     hostname: os.hostname()
   });
